@@ -1,0 +1,18 @@
+{
+  "name": "starlane-router-starter",
+  "version": "1.0.0",
+  "description": "Starter template for building an app with starlane-router.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && node server.js"
+  },
+  "dependencies": {
+    "starlane-router": "^1.0.0"
+  },
+  "devDependencies": {
+    "diesel-core": "^3.5.1",
+    "esbuild": "^0.28.2"
+  }
+}
